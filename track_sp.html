@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Glossman</title>
+      <!-- CSS FILES -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-icons.css" rel="stylesheet">
+      <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium">
+       <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer
+      ></script>
+      <!--
+         TemplateMo 581 Kind Heart Charity
+         
+         https://templatemo.com/tm-581-kind-heart-charity
+         
+         -->
+   </head>
+   <style type="text/css">
+      #footer {
+      background: black;
+      padding: 0 0 30px 0;
+      color: #fff;
+      font-size: 14px;
+      }
+
+        .timeline-with-icons {
+        border-left: 1px solid hsl(0, 0%, 90%);
+        position: relative;
+        list-style: none;
+        }
+
+        .timeline-with-icons .timeline-item {
+        position: relative;
+        margin-bottom: 10%;
+
+        }
+
+        .timeline-with-icons .timeline-item:after {
+        position: absolute;
+        display: block;
+        top: 0;
+        }
+
+        .timeline-with-icons .timeline-icon {
+            border: 2px solid #dee2e6!important;
+            position: absolute;
+            left: -48px;
+            /* background-color: hsl(217, 88.2%, 90%); */
+            color: hsl(217, 88.8%, 35.1%);
+            border-radius: 50%;
+            height: 31px;
+            width: 31px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #map {
+            height: 700px;
+            width: 100%;
+        }
+
+        .vertical-center {
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+        }
+      
+   </style>
+   <body id="section_1">
+     <header class="site-header">
+         <div class="container">
+         <div class="row">
+            <div class="col-lg-8 col-12 d-flex flex-wrap">
+               <p class="d-flex me-4 mb-0 social_link" >
+                  <a href="">
+                  <img src="assets/img/home/Group 5018.png" width="36" height="37" alt="" />
+                  </a>
+                  <a href="">
+                  <img src="assets/img/home/Group 5017.png" width="36" height="37" alt="" />
+                  </a>
+                  <a href="">
+                  <img src="assets/img/home/Group 5016.png" width="36" height="37" alt="" />
+                  </a>
+                  <a href="">
+                  <img src="assets/img/home/Group 5015.png" width="36" height="37" alt="" />
+                  </a>
+               </p>
+               <a href="" style="border: 1px solid;
+                  margin-left: 0px;margin-right: 10px;"></a>
+               <p class="d-flex mb-0 mt-2">
+                  <img src="assets/img/home/Path 38649.png" style="margin-right: 10px;" width="22" height="16" alt="">
+                  <a href="mailto:info@company.com">
+                  Track Your Order
+                  </a>
+               </p>
+            </div>
+            <div class="col-lg-4 col-12 ms-auto d-lg-block d-none">
+               <div class="heading_pull">
+                  <a class="" href="wishlist.html" >
+                  <img src="assets/img/home/heart-line.png" width="20" height="18" alt="" />
+                  <span class="text-white p-3"> WishList</span>
+                  </a>
+                  <a href="" style="border: 1px solid;
+                     margin-left: 0px; margin-right: 17px;"></a>
+                  <a class="" href="">
+                  <img src="assets/img/home/user-3-line.png" width="20" height="18" alt="" />
+                  </a>
+                  <a href="#modalCenter" role="button" class="btn text-light" data-bs-toggle="modal">My Account</a>
+                  <div id="modalCenter" class="modal modal-profile fade text-dark popins_family" tabindex="-1">
+                     <div class="modal-dialog modal-dialog-right">
+                        <div class="modal-content modal-profile-content">
+                           <div class="modal-header modal-profile-header">
+                              <span class="span-border" style="margin-left: 28px;">
+                                 <span class="modal-title text-primary h5">Kevin Zegers </span>
+                                 <p style="color: black;" class="text">
+                                    #012548
+                                 </p>
+                              </span>
+                           </div>
+                           <div class="modal-body">
+                              <ul>
+                                 <li> <a href="mybooking.html" class="text-dark"> My Bookings </a></li>
+                                 <li> <a href="myorders.html" class="text-dark"> My Orders </a></li>
+                                 <li> <a href="my_package.html" class="text-dark"> My Package </a></li>
+                                 <li> <a href="profile.html" class="text-dark"> My Profile </a></li>
+                                 <li> <a href="shopping_cart.html" class="text-dark"> Shopping Cart </a></li>
+                                 <li> <a href="setting.html" class="text-dark"> Settings </a></li>
+                                 <li> <a href="login.html" class="text-dark"> Login </a></li>
+                                 <li> <a href="register.html" class="text-dark"> Register </a></li>
+                              </ul>
+                           </div>
+                           <!-- <div class="modal-footer modal-profile-footer mb-2">
+                              <ul>
+                                  <li>Log out</li>
+                              </ul>
+                              </div> -->
+                        </div>
+                     </div>
+                  </div>
+                  <ul class="social-icon d-none">
+                     <li class="social-icon-item">
+                        <a href="#" class="social-icon-link bi-twitter"></a>
+                     </li>
+                     <li class="social-icon-item">
+                        <a href="#" class="social-icon-link bi-facebook"></a>
+                     </li>
+                     <li class="social-icon-item">
+                        <a href="#" class="social-icon-link bi-instagram"></a>
+                     </li>
+                     <li class="social-icon-item">
+                        <a href="#" class="social-icon-link bi-youtube"></a>
+                     </li>
+                     <li class="social-icon-item">
+                        <a href="#" class="social-icon-link bi-whatsapp"></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+         <div class="container">
+            <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" class="logo img-fluid" style="width: 100%;" alt="Kind Heart Charity">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item active_header">
+                     <a class="nav-link click-scroll" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item test_1" >
+                     <a class="nav-link click-scroll" href="car_service.html">Service</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link click-scroll" href="products.html">Products</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link click-scroll" href="aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link click-scroll" href="contactus.html">Contact Us</a>
+                  </li>
+                  <li>
+                     <a class="nav-link click-scroll mt-2"  href="contactus.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                           <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link click-scroll"href="#modalcart" data-bs-toggle="modal" role="button" style="font-weight: 700!important;color: black!important;">  Cart <span class="badge bg-primary rounded-0 pl-2">4</span></a>
+                     <div id="modalcart" class="modal modal-cart fade text-dark" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-right" style="right: -25%;top: 15%;width: 46%">
+                           <div class="modal-content modal-profile-content">
+                              <div class="modal-header modal-cart-header">
+                                 <h5 class="modal-title" style="    color: black;">My Shopping cart</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <div class="row">
+                                    <div class="col-sm-12 col-md-4">
+                                       <img src="assets/img/home/NoPath - Copy.png" alt="" class="cart-img" style="width: 72%" />
+                                    </div>
+                                    <div class="col-sm-12 col-md-8" style="line-height: 29px;">
+                                       <p>Chemical Guys Nonsense All Surface Cleaner, 473-mL</p>
+                                       <div style="float: right;">
+                                          <div class="number">
+                                             <span class="minus">-</span>
+                                             <input type="text" value="1"/>
+                                             <span class="plus">+</span>
+                                          </div>
+                                       </div>
+                                       <div style="float: left;">
+                                          <span>1 X $13.89</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row mt-2">
+                                    <div class="col-sm-12 col-md-4">
+                                       <img src="images/NoPath - Copy ( (15).png" alt="" class="cart-img" style="width: 72%" />
+                                    </div>
+                                    <div class="col-sm-12 col-md-8" style="line-height: 29px;">
+                                       <p>Nu Finish Scratch Doctor</p>
+                                       <div style="float: right;">
+                                          <div class="number">
+                                             <span class="minus">-</span>
+                                             <input type="text" value="1"/>
+                                             <span class="plus">+</span>
+                                          </div>
+                                       </div>
+                                       <div style="float: left;">
+                                          <span>1 X $17.99</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row mt-5">
+                                    <div class="col-sm-12 col-md-6 text-center">
+                                       <p style="font-size: 22px;">Subtotal</p>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 text-center" style="line-height: 29px;">
+                                       <p style="font-size: 22px;">$31.98</p>
+                                    </div>
+                                 </div>
+                                 <div class="row mt-5">
+                                    <div class="col-sm-12 col-md-6 text-center">
+                                       <button style="border: 1px solid #5668d5;padding: 13px 40px 10px 40px;margin-left: 40px;font-weight: 900;background: white;font-size: 20px;color:#5668d5 "> Add items</button>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 text-center" style="line-height: 29px;">
+                                       <button style="border: 1px solid #5668d5;padding: 13px 40px 10px 40px;margin-left: 40px;font-weight: 900;background:  #5668d5;font-size: 20px;color: white"> Checkout</button>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- <div class="modal-footer modal-profile-footer mb-2">
+                                 <ul>
+                                     <li>Log out</li>
+                                 </ul>
+                                 </div> -->
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="nav-item ms-3">
+                     <a class="nav-link comn_btn_design btn mt-2" href="donate.html">Book Now</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <main>
+            <div id="footer">
+                <div class="container clearfix">
+                    <div class="common-breadcrumbs">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Track SP</li>
+                            </ol>
+                        </nav>
+                        <h1>Track SP</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-sm-12">
+                        <h1>Billing Details</h1>
+                        <div id="map"></div>
+                    </div>
+                    <div>
+                        
+                        <div class="mt-5">
+                            <span class="h1">Track Order</span>
+                        </div>
+                        <!-- Section: Timeline -->
+                        <section class="py-5 mx-5">
+                            <ul class="timeline-with-icons">
+                            <li class="timeline-item ">
+                                <span class="timeline-icon border bg-dark">
+                                </span>
+                        
+                                <h5 class="fw-bold">Order and Approved</h5>
+                                <p class="text-muted mb-2 fw-bold">Oct 05, 2022,  11.30 AM</p>
+                            </li>
+                        
+                            <li class="timeline-item ">
+                        
+                                <span class="timeline-icon border bg-primary">
+                                
+                                </span>
+                                <h5 class="fw-bold">Picked for shipping</h5>
+                                <p class="text-muted mb-2 fw-bold">Oct 06, 2022,  09.00 AM</p>
+                            </li>
+                        
+                            <li class="timeline-item ">
+                        
+                                <span class="timeline-icon border">
+                                
+                                </span>
+                                <h5 class="fw-bold">Picked for shipping</h5>
+                                </p>
+                            </li>
+                        
+                            <li class="timeline-item ">
+                        
+                                <span class="timeline-icon border   ">
+                                
+                                </span>
+                                <h5 class="fw-bold">Delivery</h5>
+                            </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+      </main>
+    <footer id="footer" class="text-white ">
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                     <div class="footer-info clearfix" style="    margin-top: -23%;">
+                        <img src="images/white_textlogo_.svg" width="90%;">
+                        <p style="margin-top: -30px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
+                        <p style="font-size: 22px;">
+                           <br />
+                           <br />
+                           <strong class="text-muted" style="line-height: 35px;">Support center 24/7</strong><br />
+                           <strong>+ 3 123 456-7890</strong><br />
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-6 footer-links">
+                     <h4>Useful Links</h4>
+                     <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="car_service.html">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="products.html">Products</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="aboutus.html">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="Promotions.html">Promotions</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="Confirmation.html">Contact us</a></li>
+                     </ul>
+                  </div>
+             
+                  <div class="col-lg-3 col-md-6 footer-links">
+                     <h4>My Account</h4>
+                     <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="my_package.html">Package Details</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="track_sp.html">Delivery Information</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="term.html">Term and Conditions</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="privacy.html">Privacy Policy</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-6 footer-newsletter">
+                     <h4>Subscribe newsletter</h4>
+                     <p>Sign up here to get the latest news, updates and special offers delivered directly to your inbox</p>
+                     <form action="" method="post"><input type="email" name="email" placeholder="Email Address*" style="height: 53px;" /><input type="submit" value="Subscribe" style="color: white;height: 65px;width: 164px;"></form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container clearfix">
+            <div class="copyright float-start">
+               &copy; Copyright <strong><span>Glossman</span></strong>. All Rights Reserved
+            </div>
+            <div class="float-end icon_size footer_icons">
+               <a href="">
+               <img src="assets/img/home/Group 5018.png" alt="" />
+               </a>
+               <a href="">
+               <img src="assets/img/home/Group 5017.png" width="36" height="37" alt="" />
+               </a>
+               <a href="">
+               <img src="assets/img/home/Group 5016.png" width="36" height="37" alt="" />
+               </a>
+               <a href="">
+               <img src="assets/img/home/Group 5015.png" width="36" height="37" alt="" />
+               </a>
+            </div>
+            <div class="credits"></div>
+         </div>
+      </footer>
+      <!-- JAVASCRIPT FILES -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/click-scroll.js"></script>
+      <script src="js/counter.js"></script>
+      <script src="js/custom.js"></script>
+       <script>
+           
+
+                    // Initialize and add the map
+            function initMap() {
+            // The location of Uluru
+            const uluru = { lat: -25.344, lng: 131.031 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+            }
+
+            window.initMap = initMap;
+        </script>
+   </body>
+</html>

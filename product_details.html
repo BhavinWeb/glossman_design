@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Glossman</title>
+        <!-- CSS FILES -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/bootstrap-icons.css" rel="stylesheet" />
+        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <!--
+         TemplateMo 581 Kind Heart Charity
+         
+         https://templatemo.com/tm-581-kind-heart-charity
+         
+         -->
+    </head>
+    <style type="text/css">
+        ul li{
+            padding-left: 10px;
+        }
+        .pd_image{
+            width: 30%;
+        }
+        .carousel-control-prev {
+            position: relative;
+            width: 8% !important;
+        }
+        .carousel-control-prev {
+            left: 84%;
+        }
+
+        .carousel-control-next {
+            position: relative;
+            width: 8% !important;
+        }
+        .carousel-control-next {
+            left: 84%;
+        }
+
+        @media (max-width: 767px) {
+            .carousel-control-prev {
+                position: relative;
+            }
+            .carousel-control-prev {
+                left: 64%;
+            }
+
+            .carousel-control-next {
+                position: relative;
+            }
+            .carousel-control-next {
+                left: 66%;
+            }
+        }
+
+        .carousel-control-next-icon {
+            font-family: FontAwesome;
+            content: "\f061";
+            color: #110202;
+            font-weight: 900;
+        }
+
+        .carousel-control-prev-icon {
+            font-family: FontAwesome;
+            content: "\f060";
+            color: #110202;
+            font-weight: 900;
+        }
+        @media (max-width: 767px) {
+            .carousel-inner .carousel-item > div {
+                display: none;
+            }
+            .carousel-inner .carousel-item > div:first-child {
+                display: block;
+            }
+        }
+
+        .carousel-inner .carousel-item.active,
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev {
+            display: flex;
+            color: #080606;
+        }
+
+        /* medium and up screens */
+        @media (min-width: 768px) {
+            .carousel-inner .carousel-item-end.active,
+            .carousel-inner .carousel-item-next {
+                transform: translateX(25%);
+            }
+
+            .carousel-inner .carousel-item-start.active,
+            .carousel-inner .carousel-item-prev {
+                transform: translateX(-25%);
+            }
+        }
+
+        .carousel-inner .carousel-item-end,
+        .carousel-inner .carousel-item-start {
+            transform: translateX(0);
+        }
+
+        /* smiliar_slider */
+        .products-card .active svg {
+            margin: 7px;
+            color: #ffffff !important;
+            margin-top: 8px;
+        }
+        .products-card svg {
+            margin: 7px;
+            color: #110202;
+            margin-top: 8px;
+        }
+
+        .products-card {
+            padding: 10px !important;
+            position: relative;
+        }
+
+        .products-card img {
+            width: 100%;
+            border: 2px solid #c3b4b4;
+            margin-bottom: 14px;
+        }
+
+        .products-card .active {
+            background: #a06ab9;
+        }
+
+        .heart_icon {
+            border: 0px solid black;
+            width: 32px;
+            border-radius: 50px;
+            position: absolute;
+            right: 0;
+            margin-right: 7%;
+            margin-top: 3%;
+        }
+
+        .heart_icon:hover {
+            cursor: pointer;
+        }
+
+        .products-card .active svg {
+            margin: 7px;
+            color: #ffffff !important;
+            margin-top: 8px;
+        }
+        .products-card svg {
+            margin: 7px;
+            color: #110202;
+            margin-top: 8px;
+        }
+
+        .products-card .active {
+            background: #a06ab9;
+        }
+
+        /* endsimilar_slider */
+
+        .car_service .content {
+            /* width: 100px; */
+            padding: 6%;
+        }
+
+        .car_service .content img {
+            width: 100%;
+        }
+
+        .product_category_css img {
+            border: 1px solid rgb(14, 1, 1);
+            width: 95%;
+            height: 270px;
+        }
+
+        .btn-outline-light {
+            border-left: 3px solid rgb(160, 106, 185) !important;
+        }
+        .product_category_css button {
+            margin-top: 17px !important;
+            margin-bottom: 26px;
+        }
+        .normal_box_padding {
+            padding: 20px;
+        }
+        .slider_image {
+            /* padding: 20px; */
+            padding-top: 20px;
+        }
+        .slider_image img {
+            width: 100%;
+            border: 1px solid rgb(14, 1, 1);
+        }
+        .boostrap_toggle button {
+            border: white;
+            background: white;
+            font-size: 39px;
+            color: #a9a9a9;
+        }
+        .button_heading {
+            border: white;
+            background: white;
+            font-size: 39px;
+        }
+        .authorDetails .avatar {
+            display: inline-block;
+            width: 80px;
+            height: 72px;
+            margin: 0 0 0 5px;
+            font-size: 50px;
+        }
+        .textWrapper {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: left;
+            line-height: 11px;
+            margin-top: -18px;
+        }
+
+        .recommended_css {
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .review_filter li {
+            float: left;
+            padding-right: 20px;
+            margin-bottom: 15px;
+        }
+        .review_filter li button {
+            /* border: 1px solid; */
+            padding: 7px 40px 7px 40px;
+            border-radius: 0px;
+        }
+        .review_filter li .activate {
+            padding: 7px 40px 7px 40px !important;
+            border-radius: 0px !important;
+            background-color: #5668d5 !important;
+            color: white !important;
+        }
+
+        .review_text {
+            padding-left: 20px;
+            padding-top: 40px;
+        }
+        .helpfull_review_button svg:hover {
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .review_user {
+                width: 26% !important;
+            }
+            .quantity {
+                width: 15% !important;
+            }
+        }
+
+        .css-3zzxgd {
+            width: 50%;
+            list-style-type: none;
+            padding: 0;
+        }
+        .css-s6g0ch {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-top: 4px;
+        }
+        .css-rhg0qe {
+            -webkit-flex: 0 0 50px;
+            -ms-flex: 0 0 50px;
+            flex: 0 0 106px;
+            margin-right: 8px;
+        }
+        .css-15muezf {
+            -webkit-flex: 0 0 170px;
+            -ms-flex: 0 0 170px;
+            flex: 0 0 170px;
+            height: 12px;
+            position: relative;
+            margin-right: 16px;
+            margin-top: 4px;
+        }
+        .css-44ae0f {
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            position: absolute;
+            height: 10px;
+            background: #eaeaea;
+        }
+        .css-1byssb4 {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            height: 10px;
+            background: #ffc057;
+            display: block;
+            width: 73%;
+        }
+        .css-9zd2pu {
+            -webkit-flex: 0px 0px 112px;
+            -ms-flex: 0px 0px 112px;
+            flex: 0px 0px 112px;
+            margin-top: -2px;
+            margin-left: -5px;
+        }
+        .css-1j071wf {
+            color: #1f1f1f;
+            letter-spacing: 0;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-family: "Source Sans Pro", Arial, sans-serif;
+            font-weight: 400;
+        }
+        .button_cursor:hover {
+            cursor: pointer !important;
+        }
+
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+            position: relative;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+        }
+
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+            cursor: pointer;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* Container for image text */
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Six columns side by side */
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+
+        .filter-css .cursor {
+            border: 1px solid black !important;
+            text-align: center;
+            height: 74px;
+        }
+        .filter-css .active {
+            background: linear-gradient(to right, #5668d5 0%, #a06ab9 100%) !important;
+        }
+    </style>
+    <body id="section_1">
+        <header class="site-header">
+   <div class="container">
+   <div class="row">
+      <div class="col-lg-8 col-12 d-flex flex-wrap">
+         <p class="d-flex me-4 mb-0 social_link" >
+            <a href="">
+            <img src="assets/img/home/Group 5018.png" width="36" height="37" alt="" />
+            </a>
+            <a href="">
+            <img src="assets/img/home/Group 5017.png" width="36" height="37" alt="" />
+            </a>
+            <a href="">
+            <img src="assets/img/home/Group 5016.png" width="36" height="37" alt="" />
+            </a>
+            <a href="">
+            <img src="assets/img/home/Group 5015.png" width="36" height="37" alt="" />
+            </a>
+         </p>
+         <a href="" style="border: 1px solid;
+            margin-left: 0px;margin-right: 10px;"></a>
+         <p class="d-flex mb-0 mt-2">
+            <img src="assets/img/home/Path 38649.png" style="margin-right: 10px;" width="22" height="16" alt="">
+            <a href="mailto:info@company.com">
+            Track Your Order
+            </a>
+         </p>
+      </div>
+      <div class="col-lg-4 col-12 ms-auto d-lg-block d-none">
+         <div class="heading_pull">
+            <a class="" href="wishlist.html" >
+            <img src="assets/img/home/heart-line.png" width="20" height="18" alt="" />
+            <span class="text-white p-3"> WishList</span>
+            </a>
+            <a href="" style="border: 1px solid;
+               margin-left: 0px; margin-right: 17px;"></a>
+            <a class="" href="">
+            <img src="assets/img/home/user-3-line.png" width="20" height="18" alt="" />
+            </a>
+            <a href="#modalCenter" role="button" class="btn text-light" data-bs-toggle="modal">My Account</a>
+            <div id="modalCenter" class="modal modal-profile fade text-dark" tabindex="-1">
+               <div class="modal-dialog modal-dialog-right">
+                  <div class="modal-content modal-profile-content">
+                     <div class="modal-header modal-profile-header">
+                        <span class="span-border">
+                           <span class="modal-title text-primary h5">Kevin Zegers </span>
+                           <p style="color: black;" class="text">
+                              #012548
+                           </p>
+                        </span>
+                     </div>
+                     <div class="modal-body">
+                        <ul>
+                           <li> <a href="mybooking.html" class="text-dark"> My Bookings </a></li>
+                           <li> <a href="myorders.html" class="text-dark"> My Orders </a></li>
+                           <li> <a href="my_package.html" class="text-dark"> My Package </a></li>
+                           <li> <a href="profile.html" class="text-dark"> My Profile </a></li>
+                           <li> <a href="shopping_cart.html" class="text-dark"> Shopping Cart </a></li>
+                           <li> <a href="setting.html" class="text-dark"> Settings </a></li>
+                           <li> <a href="login.html" class="text-dark"> Login </a></li>
+                           <li> <a href="register.html" class="text-dark"> Register </a></li>
+                        </ul>
+                     </div>
+                     <!-- <div class="modal-footer modal-profile-footer mb-2">
+                        <ul>
+                            <li>Log out</li>
+                        </ul>
+                        </div> -->
+                  </div>
+               </div>
+            </div>
+            <ul class="social-icon d-none">
+               <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-twitter"></a>
+               </li>
+               <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-facebook"></a>
+               </li>
+               <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-instagram"></a>
+               </li>
+               <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-youtube"></a>
+               </li>
+               <li class="social-icon-item">
+                  <a href="#" class="social-icon-link bi-whatsapp"></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</header>
+<nav class="navbar navbar-expand-lg bg-light shadow-lg">
+   <div class="container">
+      <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" class="logo img-fluid" style="width: 100%;" alt="Kind Heart Charity">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+            <li class="nav-item active_header">
+               <a class="nav-link click-scroll" href="home.html">Home</a>
+            </li>
+            <li class="nav-item test_1" >
+               <a class="nav-link click-scroll" href="car_service.html">Service</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link click-scroll" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link click-scroll" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link click-scroll" href="contactus.html">Contact Us</a>
+            </li>
+            <li>
+               <a class="nav-link click-scroll"  href="contactus.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link click-scroll"href="#modalcart" data-bs-toggle="modal" role="button" style="font-weight: 700!important;color: black!important;">  Cart <span class="badge bg-primary rounded-0 pl-2">4</span></a>
+               <div id="modalcart" class="modal modal-cart fade text-dark" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-right" style="right: -25%;top: 15%;width: 46%">
+                     <div class="modal-content modal-profile-content">
+                        <div class="modal-header modal-cart-header">
+                           <h5 class="modal-title" style="    color: black;">My Shopping cart</h5>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                           <div class="row">
+                              <div class="col-sm-12 col-md-4">
+                                 <img src="assets/img/home/NoPath - Copy.png" alt="" class="cart-img" style="width: 72%" />
+                              </div>
+                              <div class="col-sm-12 col-md-8" style="line-height: 29px;">
+                                 <p>Chemical Guys Nonsense All Surface Cleaner, 473-mL</p>
+                                 <div style="float: right;">
+                                    <div class="number">
+                                       <span class="minus">-</span>
+                                       <input type="text" value="1"/>
+                                       <span class="plus">+</span>
+                                    </div>
+                                 </div>
+                                 <div style="float: left;">
+                                    <span>1 X $13.89</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row mt-2">
+                              <div class="col-sm-12 col-md-4">
+                                 <img src="images/NoPath - Copy ( (15).png" alt="" class="cart-img" style="width: 72%" />
+                              </div>
+                              <div class="col-sm-12 col-md-8" style="line-height: 29px;">
+                                 <p>Nu Finish Scratch Doctor</p>
+                                 <div style="float: right;">
+                                    <div class="number">
+                                       <span class="minus">-</span>
+                                       <input type="text" value="1"/>
+                                       <span class="plus">+</span>
+                                    </div>
+                                 </div>
+                                 <div style="float: left;">
+                                    <span>1 X $17.99</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row mt-5">
+                              <div class="col-sm-12 col-md-6 text-center">
+                                 <p style="font-size: 22px;" class="bold_class">Subtotal</p>
+                              </div>
+                              <div class="col-sm-12 col-md-6 text-center" style="line-height: 29px;">
+                                 <p style="font-size: 22px;">$31.98</p>
+                              </div>
+                           </div>
+                           <div class="row mt-5">
+                              <div class="col-sm-12 col-md-6 text-center">
+                                 <button style="border: 1px solid #5668d5;padding: 13px 40px 10px 40px;margin-left: 40px;font-weight: 900;background: white;font-size: 20px;color:#5668d5 "> Add items</button>
+                              </div>
+                              <div class="col-sm-12 col-md-6 text-center" style="line-height: 29px;">
+                                 <button style="border: 1px solid #5668d5;padding: 13px 40px 10px 40px;margin-left: 40px;font-weight: 900;background:  #5668d5;font-size: 20px;color: white"> Checkout</button>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- <div class="modal-footer modal-profile-footer mb-2">
+                           <ul>
+                               <li>Log out</li>
+                           </ul>
+                           </div> -->
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li class="nav-item ms-3 d-none">
+               <a class="nav-link comn_btn_design btn" href="donate.html">Book Now</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</nav>
+        <main>
+            <div id="footer">
+                <div class="container clearfix">
+                    <div class="common-breadcrumbs">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Details</li>
+                            </ol>
+                        </nav>
+                        <h1>Details</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="container">
+                    <div class="row mt-3 filter-css mb-3">
+                        <div class="col-sm-12 col-md-12 col-xl-6">
+                           <div class="col-xl-10">
+                            <div class="mySlides" style="display: block; border: 1px solid; margin-bottom: 13px;">
+                                <div class="numbertext">1 / 6</div>
+                                <img src="assets/product/NoPath - Copy ( (11).png" style="width: 100%;" />
+                            </div>
+
+                            <div class="mySlides" style="display: block; border: 1px solid; margin-bottom: 13px;">
+                                <div class="numbertext">2 / 6</div>
+                                <img src="assets/product/NoPath - Copy ( (10).png" style="width: 100%;" />
+                            </div>
+
+                            <div class="mySlides" style="display: block; border: 1px solid; margin-bottom: 13px;">
+                                <div class="numbertext">3 / 6</div>
+                                <img src="assets/product/NoPath - Copy ( (9).png" style="width: 100%;" />
+                            </div>
+
+                            <div class="mySlides" style="display: block; border: 1px solid; margin-bottom: 13px;">
+                                <div class="numbertext">4 / 6</div>
+                                <img src="assets/product/NoPath - Copy ( (11).png" style="width: 100%;" />
+                            </div>
+
+                            <div class="mySlides" style="display: block; border: 1px solid; margin-bottom: 13px;">
+                                <div class="numbertext">5 / 6</div>
+                                <img src="assets/product/NoPath - Copy ( (11).png" style="width: 100%;" />
+                            </div>
+
+                            <div class="mySlides" style="display: block; border: 1px solid; margin-bottom: 13px;">
+                                <div class="numbertext">6 / 6</div>
+                                <img src="assets/product/NoPath - Copy ( (11).png" style="width: 100%;" />
+                            </div>
+
+                            <!-- <div class="caption-container">
+                                  <p id="caption"></p>
+                                </div> -->
+
+                            <div class="row">
+                                <div class="column">
+                                    <img class="demo cursor" src="assets/product/NoPath - Copy ( (11).png" style="width: 100%;" onclick="currentSlide(1)" alt="The Woods" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="assets/product/NoPath - Copy ( (10).png" style="width: 100%;" onclick="currentSlide(2)" alt="Cinque Terre" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="assets/product/NoPath - Copy ( (9).png" style="width: 100%;" onclick="currentSlide(3)" alt="Mountains and fjords" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="assets/product/NoPath - Copy ( (11).png" style="width: 100%;" onclick="currentSlide(4)" alt="Northern Lights" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="assets/product/NoPath - Copy ( (11).png" style="width: 100%;" onclick="currentSlide(5)" alt="Nature and sunrise" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="assets/product/NoPath - Copy ( (11).png" style="width: 100%;" onclick="currentSlide(6)" alt="Snowy Mountains" />
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+
+
+
+                        <div class="col-sm-12 col-md-12 col-xl-6 mt-4 pr-5" style="padding-left: 43px;">
+                            <div style="float: right;">
+                                <a href=""><img src="assets/like (5).png" class="button_cursor pd_image" alt="" style="margin-right: 20px;" /></a>
+                                <a href=""><img src="assets/share.png" class="button_cursor pd_image" alt="" /></a>
+                            </div>
+                            <div class="" style="margin-top: 95px;">
+                                <h1 class="h1-title-head">Blue Shop Towels</h1>
+                            </div>
+                            <div class="mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                    <path
+                                        d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                        fill="#ffd042"
+                                        fill-rule="evenodd"
+                                        data-name="Path 19"
+                                    />
+                                </svg>
+                                <span style="font-size: 25px;">4.0 (378)</span>
+                            </div>
+                            <div class="mt-4"><span style="font-size: 25px;">Availability</span>
+                            <button class="btn" style="padding: 10px 30px 10px 30px; border: 1px solid #5668d5; margin-left: 20px; color: #5668d5; border-radius: 0px;">In stock</button></div>
+                            <div class="mt-4">
+                                <span style="font-size: 30px !important; font-weight: 700;">$2.99</span>
+                            </div>
+                            <div class="mt-4">
+                                <div class="col-sm-12 center-block">
+                                    <br />
+                                    <p>
+                                        Qty.
+                                        <span class="">
+                                            <input type="text" class="quantity" placeholder="1" />
+                                            <button type="button" class=" cart" name="submit" id="submit" >
+                                                ADD TO CART
+                                            </button>
+                                        </span>
+                                    </p>
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 mt-5 boostrap_toggle"><button onclick="showProductDetail(1);">Description</button> 
+                            <button onclick="showProductDetail(0);">Customer Reviews</button></div>
+                        <div class="col-sm-12 mt-2 " id="multiCollapseExample1">
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            </p>
+
+                            <button class="button_heading">Features</button>  
+                            <ul style="list-style-type: disc !important;">
+                                <li> Heavy-duty cloth-like Blue Shop Towels</li>
+                                <li>Absorbs grease and oil easily</li>
+                                <li>Wipes tools and surfaces clean</li>
+                                <li> Durable paper towels can be used again and again</li>
+                                <li>Ideal for garage, auto, or basement</li>
+                                <li>55 sheet roll</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-12 mt-2 d-none" id="multiCollapseExample2">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="authorDetails">
+                                        <a href="/Profile/13113142" target="_blank" class="avatar">
+                                            4.5
+                                        </a>
+                                        <div class="textWrapper">
+                                            <p class="date" data-date="3/16/2019 3:29:37 PM">Average Rating</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="314.84 1968 21.505 21.505">
+                                                <path
+                                                    d="M319.246 1989.505c-.094 0-.187 0-.281-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.187-.1-.187-.299-.187-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.218.398c.188 0 .375.1.375.299.094.2 0 .398-.187.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.094 4.181c-.093 0-.187.1-.281.1Z"
+                                                    fill="gray"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+
+                                            <span style="padding-left: 10px;">( 0 Reviews )</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6" style="line-height: 11px;">
+                                    <div style="padding-top: 19px;"><p>Submit Your Review</p></div>
+                                    <div>
+                                        <p>You must be <a href="login.html">logged</a> in to post a review.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 mt-4 recommended_css"><span style="font-weight: 700;">0.00%</span><span style="padding-left: 31px; font-size: 22px;">Recommended (0 of 1)</span></div>
+
+                                <div class="col-sm-12 mt-4">
+                                    <ul class="css-3zzxgd">
+                                        <li class="css-s6g0ch">
+                                            <div class="css-rhg0qe">
+                                                <span class="cds-33 css-1j071wf cds-35">
+                                                <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                />
+                                            </svg>
+                                            <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                />
+                                            </svg>
+                                            <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                />
+                                            </svg>
+                                            <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                />
+                                            </svg>
+                                            <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                />
+                                            </svg>
+                                        </span>
+                                            </div>
+                                            <div class="css-15muezf">
+                                                <div class="css-44ae0f"><div class="css-1byssb4"></div></div>
+                                            </div>
+                                            <div class="css-9zd2pu">
+                                                <span class="cds-33 css-1j071wf cds-35"><span>72.72%</span></span>
+                                            </div>
+                                        </li>
+                                        <li class="css-s6g0ch">
+                                            <div class="css-rhg0qe">
+                                                <span class="cds-33 css-1j071wf cds-35">4 stars</span></div>
+                                            <div class="css-15muezf">
+                                                <div class="css-44ae0f"><div class="css-3jjbm0"></div></div>
+                                            </div>
+                                            <div class="css-9zd2pu">
+                                                <span class="cds-33 css-1j071wf cds-35"><span>20.83%</span></span>
+                                            </div>
+                                        </li>
+                                        <li class="css-s6g0ch">
+                                            <div class="css-rhg0qe"><span class="cds-33 css-1j071wf cds-35">3 stars</span></div>
+                                            <div class="css-15muezf">
+                                                <div class="css-44ae0f"><div class="css-1uhwjbx"></div></div>
+                                            </div>
+                                            <div class="css-9zd2pu">
+                                                <span class="cds-33 css-1j071wf cds-35"><span>3.95%</span></span>
+                                            </div>
+                                        </li>
+                                        <li class="css-s6g0ch">
+                                            <div class="css-rhg0qe"><span class="cds-33 css-1j071wf cds-35">2 stars</span></div>
+                                            <div class="css-15muezf">
+                                                <div class="css-44ae0f"><div class="css-ys956l"></div></div>
+                                            </div>
+                                            <div class="css-9zd2pu">
+                                                <span class="cds-33 css-1j071wf cds-35"><span>1.04%</span></span>
+                                            </div>
+                                        </li>
+                                        <li class="css-s6g0ch">
+                                            <div class="css-rhg0qe"><span class="cds-33 css-1j071wf cds-35">1 star</span></div>
+                                            <div class="css-15muezf">
+                                                <div class="css-44ae0f"><div class="css-tuwrg2"></div></div>
+                                            </div>
+                                            <div class="css-9zd2pu">
+                                                <span class="cds-33 css-1j071wf cds-35"><span>1.43%</span></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-12 mt-4">
+                                    <ul class="review_filter">
+                                        <li><button class="btn btn-sm activate" id="active_1" onclick="Set_filter(1);">Show All</button></li>
+                                        <li><button class="btn btn-sm" id="active_2" onclick="Set_filter(2);">Most Helpful Positive</button></li>
+                                        <li><button class="btn btn-sm" id="active_3" onclick="Set_filter(3);">Most Helpful Negative</button></li>
+                                        <li><button class="btn btn-sm" id="active_4" onclick="Set_filter(4);">Highest Rating</button></li>
+                                        <li><button class="btn btn-sm" id="active_5" onclick="Set_filter(5);">Lowest Rating</button></li>
+                                    </ul>
+                                </div>
+
+                                <div class="row review_1 mt-3 mb-5" id="remove_list">
+                                    <div class="col-sm-1 col-12 mt-5"><img src="assets/Subtraction 1.png" class="avatar review_user" alt="" width="100%" /></div>
+                                    <div class="col-sm-11 col-12 mt-5" style="padding-left: 20px;">
+                                        <div><span style="font-size: 25px;"> John Doe </span></div>
+                                        <div class="mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="314.84 1968 21.505 21.505">
+                                                <path
+                                                    d="M319.246 1989.505c-.094 0-.187 0-.281-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.187-.1-.187-.299-.187-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.218.398c.188 0 .375.1.375.299.094.2 0 .398-.187.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.094 4.181c-.093 0-.187.1-.281.1Z"
+                                                    fill="gray"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <p class="mt-3">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vero inventore labore voluptate animi, alias qui doloribus ea libero, suscipit soluta, quos dolorum veniam earum ullam a sequi
+                                            minus facilis.
+                                        </p>
+                                        <div class="helpfull_review_button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.23" height="21.572" viewBox="355.643 2511.5 21.23 21.572">
+                                                <path
+                                                    d="M369.586 2520.05v-4.314a3.236 3.236 0 0 0-3.236-3.236l-4.314 9.707v11.865h12.166a2.157 2.157 0 0 0 2.157-1.834l1.489-9.707a2.157 2.157 0 0 0-2.157-2.48h-6.105Zm-7.55 14.022H358.8a2.157 2.157 0 0 1-2.157-2.157v-7.55c0-1.192.965-2.158 2.157-2.158h3.236"
+                                                    stroke-linejoin="round"
+                                                    stroke-linecap="round"
+                                                    stroke-width="2"
+                                                    stroke="#000"
+                                                    fill="transparent"
+                                                    data-name="Icon feather-thumbs-up"
+                                                />
+                                            </svg>
+                                            <span style="margin-left: 10px; margin-right: 10px;"> Helpful (0) </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.23" height="21.572" viewBox="355.643 2511.5 21.23 21.572">
+                                                <path
+                                                    d="M369.586 2520.05v-4.314a3.236 3.236 0 0 0-3.236-3.236l-4.314 9.707v11.865h12.166a2.157 2.157 0 0 0 2.157-1.834l1.489-9.707a2.157 2.157 0 0 0-2.157-2.48h-6.105Zm-7.55 14.022H358.8a2.157 2.157 0 0 1-2.157-2.157v-7.55c0-1.192.965-2.158 2.157-2.158h3.236"
+                                                    stroke-linejoin="round"
+                                                    stroke-linecap="round"
+                                                    stroke-width="2"
+                                                    stroke="#000"
+                                                    fill="transparent"
+                                                    data-name="Icon feather-thumbs-up"
+                                                />
+                                            </svg>
+                                            <span style="margin-left: 10px;"> Unhelpful (0) </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-1 col-12 mt-5"><img src="assets/Subtraction 1.png" class="avatar review_user" alt="" width="100%" /></div>
+                                    <div class="col-sm-11 col-12 mt-5" style="padding-left: 20px;">
+                                        <div><span style="font-size: 25px;"> John Doe </span></div>
+                                        <div class="mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="281.905 1968 21.505 21.505">
+                                                <path
+                                                    d="M286.311 1989.505c-.093 0-.187 0-.28-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.188-.1-.188-.299-.188-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.219.398c.187 0 .375.1.375.299.093.2 0 .398-.188.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.093 4.181c-.094 0-.188.1-.282.1Z"
+                                                    fill="#ffd042"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.505" height="21.505" viewBox="314.84 1968 21.505 21.505">
+                                                <path
+                                                    d="M319.246 1989.505c-.094 0-.187 0-.281-.1-.188-.1-.188-.298-.188-.497l1.875-7.368-5.625-4.878c-.187-.1-.187-.299-.187-.498a.512.512 0 0 1 .469-.299l7.312-.398 2.625-7.168c.094-.399.75-.399.844 0l2.625 7.168 7.218.398c.188 0 .375.1.375.299.094.2 0 .398-.187.498l-5.719 4.779 1.875 7.367c.094.2 0 .398-.187.498-.188.1-.375.1-.563 0l-5.906-4.082-6.094 4.181c-.093 0-.187.1-.281.1Z"
+                                                    fill="gray"
+                                                    fill-rule="evenodd"
+                                                    data-name="Path 19"
+                                                />
+                                            </svg>
+                                        </div>
+                                        <p class="mt-3">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem unde in animi minima quis tempore consequatur quas eius veritatis, quasi aut accusantium deserunt blanditiis nihil corrupti,
+                                            cum rerum qui adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vero inventore labore voluptate animi, alias qui doloribus ea libero, suscipit soluta, quos dolorum
+                                            veniam earum ullam a sequi minus facilis.
+                                        </p>
+                                        <div class="helpfull_review_button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.23" height="21.572" viewBox="355.643 2511.5 21.23 21.572">
+                                                <path
+                                                    d="M369.586 2520.05v-4.314a3.236 3.236 0 0 0-3.236-3.236l-4.314 9.707v11.865h12.166a2.157 2.157 0 0 0 2.157-1.834l1.489-9.707a2.157 2.157 0 0 0-2.157-2.48h-6.105Zm-7.55 14.022H358.8a2.157 2.157 0 0 1-2.157-2.157v-7.55c0-1.192.965-2.158 2.157-2.158h3.236"
+                                                    stroke-linejoin="round"
+                                                    stroke-linecap="round"
+                                                    stroke-width="2"
+                                                    stroke="#000"
+                                                    fill="transparent"
+                                                    data-name="Icon feather-thumbs-up"
+                                                />
+                                            </svg>
+                                            <span style="margin-left: 10px; margin-right: 10px;"> Helpful (0) </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.23" height="21.572" viewBox="355.643 2511.5 21.23 21.572">
+                                                <path
+                                                    d="M369.586 2520.05v-4.314a3.236 3.236 0 0 0-3.236-3.236l-4.314 9.707v11.865h12.166a2.157 2.157 0 0 0 2.157-1.834l1.489-9.707a2.157 2.157 0 0 0-2.157-2.48h-6.105Zm-7.55 14.022H358.8a2.157 2.157 0 0 1-2.157-2.157v-7.55c0-1.192.965-2.158 2.157-2.158h3.236"
+                                                    stroke-linejoin="round"
+                                                    stroke-linecap="round"
+                                                    stroke-width="2"
+                                                    stroke="#000"
+                                                    fill="transparent"
+                                                    data-name="Icon feather-thumbs-up"
+                                                />
+                                            </svg>
+                                            <span style="margin-left: 10px;"> Unhelpful (0) </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button_heading">SIMILAR PRODUCTS</button>
+                    <div class="row mx-auto my-auto justify-content-center pb-5">
+                        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="row">
+                                <a class="carousel-control-prev w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                                        <i style="font-size: 24px;" class="fas">&#xf060;</i>
+                                    </span>
+                                </a>
+                                <a class="carousel-control-next w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true">
+                                        <i style="font-size: 24px;" class="fas">&#xf061;</i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-sm-12 col-md-6 col-xl-3">
+                                        <div class="products-card">
+                                            <div class="heart_icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            <img src="assets/img/home/NoPath - Copy (.png" alt="" />
+                                            <span>Chemical Guys Nonsense All Surface Cleaner, 473-mL</span>
+                                            <div style="font-size: 26px;">
+                                                <span style="float: left; color: #5668d5;">$200</span>
+                                                <span style="float: right;">
+                                                    <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                        />
+                                                    </svg>
+                                                    4.5
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="col-sm-12 col-md-6 col-xl-3">
+                                        <div class="products-card">
+                                            <div class="heart_icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            <img src="assets/img/home/NoPath - Copy (.png" alt="" />
+                                            <span>Chemical Guys Nonsense All Surface Cleaner, 473-mL</span>
+                                            <div style="font-size: 26px;">
+                                                <span style="float: left; color: #5668d5;">$200</span>
+                                                <span style="float: right;">
+                                                    <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                        />
+                                                    </svg>
+                                                    4.5
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="col-sm-12 col-md-6 col-xl-3">
+                                        <div class="products-card">
+                                            <div class="heart_icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            <img src="assets/img/home/NoPath - Copy (.png" alt="" />
+                                            <span>Chemical Guys Nonsense All Surface Cleaner, 473-mL</span>
+                                            <div style="font-size: 26px;">
+                                                <span style="float: left; color: #5668d5;">$200</span>
+                                                <span style="float: right;">
+                                                    <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                        />
+                                                    </svg>
+                                                    4.5
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="col-sm-12 col-md-6 col-xl-3">
+                                        <div class="products-card">
+                                            <div class="heart_icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            <img src="assets/img/home/NoPath - Copy (.png" alt="" />
+                                            <span>Chemical Guys Nonsense All Surface Cleaner, 473-mL</span>
+                                            <div style="font-size: 26px;">
+                                                <span style="float: left; color: #5668d5;">$200</span>
+                                                <span style="float: right;">
+                                                    <svg style="margin-top: 1px; color: #ffc400;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                                                        />
+                                                    </svg>
+                                                    4.5
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="footer" class="text-white ">
+   <div class="footer-top">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-3 col-md-6">
+               <div class="footer-info clearfix" style="    margin-top: -23%;">
+                  <img src="images/white_textlogo_.svg" width="90%;">
+                  <p style="margin-top: -30px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
+                  <p style="font-size: 22px;">
+                     <br />
+                     <br />
+                     <strong class="text-muted" style="line-height: 35px;">Support center 24/7</strong><br />
+                     <strong>+ 3 123 456-7890</strong><br />
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+               <h4>Useful Links</h4>
+               <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="car_service.html">Services</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="products.html">Products</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="aboutus.html">About us</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="Promotions.html">Promotions</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="Confirmation.html">Contact us</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+               <h4>My Account</h4>
+               <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="my_package.html">Package Details</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="track_sp.html">Delivery Information</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="term.html">Term and Conditions</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="privacy.html">Privacy Policy</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+               <h4>Subscribe newsletter</h4>
+               <p>Sign up here to get the latest news, updates and special offers delivered directly to your inbox</p>
+               <form action="" method="post"><input type="email" name="email" placeholder="Email Address*" style="height: 53px;" /><input type="submit" value="Subscribe" style="color: white;height: 65px;width: 164px;"></form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container clearfix">
+      <div class="copyright float-start">
+         &copy; Copyright <strong><span>Glossman</span></strong>. All Rights Reserved
+      </div>
+      <div class="float-end icon_size footer_icons">
+         <a href="">
+         <img src="assets/img/home/Group 5018.png" alt="" />
+         </a>
+         <a href="">
+         <img src="assets/img/home/Group 5017.png" width="36" height="37" alt="" />
+         </a>
+         <a href="">
+         <img src="assets/img/home/Group 5016.png" width="36" height="37" alt="" />
+         </a>
+         <a href="">
+         <img src="assets/img/home/Group 5015.png" width="36" height="37" alt="" />
+         </a>
+      </div>
+      <div class="credits"></div>
+   </div>
+</footer>
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            function Set_filter(id) {
+                $(".review_filter li button").removeClass("activate");
+                $("#active_" + id).addClass("activate");
+                // alert(id);
+            }
+
+            function showProductDetail(id) {
+                if (id == 1) {
+                    // alert("vxcvx");
+                    $("#multiCollapseExample2").addClass("d-none");
+                    $("#multiCollapseExample2").removeClass("show");
+                    $("#multiCollapseExample1").removeClass("d-none");
+                    $("#multiCollapseExample1").addClass("show");
+                } else {
+                    $("#multiCollapseExample2").removeClass("d-none");
+                    $("#multiCollapseExample2").addClass("show");
+                    $("#multiCollapseExample1").addClass("d-none");
+                    $("#multiCollapseExample1").removeClass("show");
+                }
+            }
+
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides((slideIndex += n));
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides((slideIndex = n));
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("demo");
+                let captionText = document.getElementById("caption");
+                if (n > slides.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+        <script>
+            let items = document.querySelectorAll(".carousel .carousel-item");
+
+            items.forEach((el) => {
+                const minPerSlide = 4;
+                let next = el.nextElementSibling;
+                for (var i = 1; i < minPerSlide; i++) {
+                    if (!next) {
+                        // wrap carousel by using first child
+                        next = items[0];
+                    }
+                    let cloneChild = next.cloneNode(true);
+                    el.appendChild(cloneChild.children[0]);
+                    next = next.nextElementSibling;
+                }
+            });
+        </script>
+    </body>
+</html>
